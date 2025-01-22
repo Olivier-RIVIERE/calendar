@@ -66,11 +66,11 @@ document.addEventListener('DOMContentLoaded', function () {
 ```
 ## Technologies Used
 
-HTML: For structure and content.
-CSS: For styling the application.
-JavaScript: For interactivity and client-server communication.
-Node.js: Backend server to handle event storage.
-FullCalendar.js: Interactive and feature-rich calendar library.
+- **HTML**: For structure and content.
+- **CSS**: For styling the application.
+- **JavaScript**: For interactivity and client-server communication.
+- **Node.js**: Backend server to handle event storage.
+- **FullCalendar.js**: Interactive and feature-rich calendar library.
 
 ## License
 
