@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calendrier</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.jsdelivr.net/npm/fullcalendar@6.1.15/index.global.min.js"></script>
+  <script src="script.js" defer></script>
+</head>
+
+<body>
+  <h1>Calendrier</h1>
+  <div id="calendar"></div>
+
+  <div id="eventModal" style="display: none;">
+    <div>
+      <label for="eventName">Nom de l'événement :</label>
+      <input type="text" id="eventName" placeholder="Nom de l'événement" required>
+    </div>
+    <div>
+      <label for="startDate">Date de début :</label>
+      <input type="date" id="startDate" readonly>
+    </div>
+    <div>
+      <label for="endDate">Date de fin :</label>
+      <input type="date" id="endDate" readonly>
+    </div>
+    <button id="saveEventBtn">Enregistrer</button>
+    <button id="closeModalBtn">Fermer</button>
+  </div>
+
+</body>
+
+</html>
